@@ -4,7 +4,7 @@
   
   <name>common-util</name>
   <description>common utility classes</description>
-  <groupId>com.sp.common.util</groupId>
+  <groupId>com.chan.nel</groupId>
   <artifactId>common-util</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <modelVersion>4.0.0</modelVersion>
@@ -197,7 +197,7 @@
         <configuration>
           <skip>${jacoco.skip}</skip>
           <includes>
-            <include>com/sp/common/util**</include>
+            <include>com/chan/nel/common/util**</include>
           </includes>
           <excludes>
             <exclude>${jacoco.exclude}*</exclude>
