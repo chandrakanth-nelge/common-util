@@ -8,7 +8,7 @@ import org.owasp.encoder.Encode;
  * Utility methods for constructing messages for application logs.
  * This must be used whenever you are logging request.
  *
- * @author sarvesh
+ * @author Chandrakanth Nelge
  */
 public final class LoggerUtilities {
 
