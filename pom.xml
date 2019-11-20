@@ -13,7 +13,6 @@
   <properties>
     <java.version>8</java.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <owasp-encoder.version>1.2.2</owasp-encoder.version>
     <commons-collections.version>4.3</commons-collections.version>
     <slf4j.version>1.7.25</slf4j.version>
     <log4j.version>2.11.1</log4j.version>
@@ -35,12 +34,6 @@
       <version>${commons-collections.version}</version>
     </dependency>
     
-    <dependency>
-      <groupId>org.owasp.encoder</groupId>
-      <artifactId>encoder</artifactId>
-      <version>${owasp-encoder.version}</version>
-    </dependency>
-
     <!-- slf4j api for logging -->
     <dependency>
       <groupId>org.slf4j</groupId>
